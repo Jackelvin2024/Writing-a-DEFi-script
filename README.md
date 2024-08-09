@@ -9,6 +9,7 @@ Prerequisites
 Node.js and npm should be installed.
 An Ethereum wallet with Sepolia testnet ETH is required.
 Set up an Infura project to connect to the Sepolia testnet.
+
 Install necessary packages:
 bash
 Copy code
@@ -124,36 +125,42 @@ node defi_script.js
 +------------------------+
             |
             v
+            
 +------------------------+
 |  Fetch Pair Data       |
 |   from Uniswap         |
 +------------------------+
             |
             v
+            
 +------------------------+
 |   Create Trade         |
 |   (Token A -> Token B) |
 +------------------------+
             |
             v
+            
 +------------------------+
 |  Swap Tokens on        |
 |   Uniswap              |
 +------------------------+
             |
             v
+            
 +------------------------+
 | Check Transaction      |
 | Receipt                |
 +------------------------+
             |
             v
+            
 +------------------------+
 | Deposit Token B        |
 |  to Aave               |
 +------------------------+
             |
             v
+            
 +------------------------+
 | Check Deposit Receipt  |
 +------------------------+
